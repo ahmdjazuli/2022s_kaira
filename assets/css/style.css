@@ -1,0 +1,38 @@
+.dark-mode .sidebar-dark-success .nav-sidebar>.nav-item>.nav-link.active, .dark-mode .sidebar-light-success .nav-sidebar>.nav-item>.nav-link.active{
+      background-color: #28a745;
+    }
+.btn:not(:disabled):not(.disabled){
+    background-color: black;
+}
+div.dt-button-collection button.dt-button:active:not(.disabled), div.dt-button-collection button.dt-button.active:not(.disabled), div.dt-button-collection div.dt-button:active:not(.disabled), div.dt-button-collection div.dt-button.active:not(.disabled), div.dt-button-collection a.dt-button:active:not(.disabled), div.dt-button-collection a.dt-button.active:not(.disabled) {
+      background-color: black;
+}
+button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled), div.dt-button:active:not(.disabled):hover:not(.disabled), div.dt-button.active:not(.disabled):hover:not(.disabled), a.dt-button:active:not(.disabled):hover:not(.disabled), a.dt-button.active:not(.disabled):hover:not(.disabled) {
+      box-shadow: inset 1px 1px 3px #999999;
+      background-color: #cccccc;
+}
+
+.pagination > li > a {
+    background-color: white;
+    color: black;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a {
+    color: white;
+    background-color: black !Important;
+    border: solid 1px black !Important;
+}
+
+.pagination > .active > a:hover {
+    background-color: black !Important;
+    border: solid 1px black;
+}
